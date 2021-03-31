@@ -1,5 +1,5 @@
 const openBtn = document.querySelector("#openOverlay");
-const body = document.body;
+const body = document.querySelector("body");
 const successModal = createModal("The message has been sent");
 
 openBtn.addEventListener("click", (e) => {

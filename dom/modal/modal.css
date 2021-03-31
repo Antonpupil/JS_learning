@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.simple-overlay-container {
-    height: 500px;
-    position: relative;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -54,8 +49,7 @@ button, input, optgroup, select, textarea {
     outline: none;
 }
 
-
-.simple-overlay-container .overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -68,12 +62,11 @@ button, input, optgroup, select, textarea {
     z-index: 10000;
 }
 
-.simple-overlay-container .modal-container {
+.modal-container {
     position: relative;
 }
 
-
-.simple-overlay-container .close {
+.close {
     color: #fff;
     position: absolute;
     right: -5px;
@@ -86,8 +79,7 @@ button, input, optgroup, select, textarea {
     text-align: center;
     text-decoration: none;
 }
-
-.simple-overlay-container .content {
+.content {
     width: 400px;
     background: #444;
     border-radius: 5px;
